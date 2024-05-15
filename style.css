@@ -1,0 +1,9 @@
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
