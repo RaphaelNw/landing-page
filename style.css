@@ -6,8 +6,13 @@ a {
 li {
     list-style-type: none;
 }
+
+img {
+    width: 250px;
+    height: auto;
+}
 body {
-    font-family: Roboto, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -42,7 +47,7 @@ body {
 
 .section-one {
     display: flex;
-    flex: 7;
+    flex: 6;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
@@ -89,7 +94,7 @@ body {
 
  .section-two {
     display: flex;
-    flex: 7;
+    flex: 6;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -102,24 +107,28 @@ body {
  .cards {
     display: flex;
     flex: 1;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
  }
  
- .card .img {
+ .card {
     flex-grow: 1;
     margin: 8px;
-    border: 2px solid blue;
     border-radius: 10px;
+    width: 220px;
+    align-content: center;
+    text-align: center;
  }
 
  .section-three {
     display: flex;
-    flex: 7;
+    flex: 6;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
     background-color: #E5E7EB;
+    padding: 30px;
  }
 
  .quote {
@@ -133,14 +142,13 @@ body {
 
  .section-four {
     background-color: #3882F6;
-    width: 500px;
-    border-radius: 10px;;
+    border-radius: 5px;;
     display: flex;
-    flex: 7;
+    flex: 4;
     justify-content: space-around;
     align-items:;
     padding: 8px;
-    margin: 100px;
+    margin: 70px;
  }
 
  .left {
@@ -165,8 +173,9 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
  }
 
  .button-two {
@@ -175,5 +184,15 @@ body {
     background-color: #3882F6;
     color: #ffffff; 
     border-radius: 5px;
+ }
 
+ .footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #ffffff;
+    font-size: smaller;
+    padding: 25px;
  }
